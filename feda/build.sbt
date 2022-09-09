@@ -12,11 +12,13 @@ lazy val root = project
 
     libraryDependencies ++= Seq(
       "org.typelevel" %% "cats-effect" % "3.3.14",
+      "org.typelevel" %% "kittens" % "3.0.0-M4",
       "io.circe" %% "circe-core" % "0.14.2",
       "com.github.julien-truffaut" %% "monocle-core" % "3.0.0-M6",
       "eu.timepit" %% "refined" % "0.10.1",
       "eu.timepit" %% "refined-cats" % "0.10.1",
       "io.circe" %% "circe-refined" % "0.14.2",
+      "com.comcast" %% "ip4s-core" % "3.1.3",
       "org.scalameta" %% "munit" % "0.7.29" % Test
     )
   )

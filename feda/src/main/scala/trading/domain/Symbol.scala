@@ -1,4 +1,4 @@
-package trading
+package trading.domain
 
 import trading.RefNewtype
 
